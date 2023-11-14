@@ -17,6 +17,8 @@ def checkNum() :
     except ValueError :
         print("ต้องเป็นตัวเลขเท่านั้น")
         checkNum()
+    except :
+        print("Exception caught")
     
 checkNum()
 
